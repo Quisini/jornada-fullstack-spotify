@@ -1,0 +1,1 @@
+mongodb+srv://gustavoquisini:OMHTnAoBOUvF4P1n@clusterfree.52q45ph.mongodb.net/?retryWrites=true&w=majority&appName=ClusterFree
