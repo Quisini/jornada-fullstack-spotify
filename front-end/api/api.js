@@ -1,7 +1,7 @@
 // Usando Axios
 import axios from "axios";
 
-const URL = "http://localhost:3000";
+const URL = "/api";
 
 // Faz uma requisição para o nosso servidor
 const responseArtists = await axios.get(`${URL}/artists`);
