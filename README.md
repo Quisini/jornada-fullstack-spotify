@@ -1,5 +1,5 @@
-<h1>Spotify 2</h1>
-<h3>Projeto final da Jornada Fullstack da Hashtag Treinamentos</h3>
+<h1>Spotify 2</h1> ![ícone spotify](https://cdn.iconscout.com/icon/free/png-256/free-spotify-11-432546.png?f=webp)
+<h2>Projeto final da Jornada Fullstack da Hashtag Treinamentos</h2>
 
 <h5>Tecnologias usadas:</h5>
 <ul>
