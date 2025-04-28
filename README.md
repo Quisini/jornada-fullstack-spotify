@@ -1,4 +1,4 @@
-<h1>Spotify 2</h1> <img heigth=10px src="https://cdn.iconscout.com/icon/free/png-256/free-spotify-11-432546.png?f=webp">
+<h1>Spotify 2</h1> <img width=10px src="https://cdn.iconscout.com/icon/free/png-256/free-spotify-11-432546.png?f=webp">
 <h2>Projeto final da Jornada Fullstack da Hashtag Treinamentos</h2>
 
 <h5>Tecnologias usadas:</h5>
