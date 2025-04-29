@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "npm i --prefix back-end && npm i --prefix front-end && npm run build --prefix front-end",
-    "start": "npm run start --prefix back-end"
+    "start": "npm run start --prefix back-end",
+    "dev": "npm run dev --prefix front-end"
   },
   "repository": {
     "type": "git",
