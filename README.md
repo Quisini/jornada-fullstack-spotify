@@ -1,5 +1,5 @@
 <div>
-  <h1>Spotify 2 <img width=30px src="https://cdn.iconscout.com/icon/free/png-256/free-spotify-11-432546.png?f=webp"></h1> 
+  <h1>Spotify 2 <img width=30px src=".\front-end\src\assets\logo\spotify-logo.png"></h1> 
   <h2>Projeto final da Jornada Fullstack da Hashtag Treinamentos</h2>
 </div>
 
