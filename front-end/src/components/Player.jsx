@@ -7,7 +7,7 @@ import {
   faBackwardStep,
   faForwardStep,
 } from "@fortawesome/free-solid-svg-icons";
-import { Link, useLocation, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useRef } from "react";
 
 const formatTime = (timeInSeconds) => {
