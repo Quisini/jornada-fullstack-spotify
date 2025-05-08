@@ -3,12 +3,14 @@ import ItemList from "./ItemList.jsx";
 import { artistArray } from "../assets/database/artists.js";
 import { songsArray } from "../assets/database/songs.js";
 
-const singleItemWidth = window.inneWidth >= 480 ? 172 : 150;
+const singleItemWidth = window.innerWidth >= 480 ? 172 : 150;
+const singleItemPadding =
+  window.innerWidth >= 480 ? 25 * 2 - 20 * 2 : 20 - 10 * 2;
 
 const Main = ({ type }) => {
   const itemsPerRow = type
     ? Infinity
-    : Math.floor((window.innerWidth - 25 * 2 - 20 * 2) / singleItemWidth);
+    : Math.floor((window.innerWidth - singleItemPadding) / singleItemWidth);
 
   return (
     <>
