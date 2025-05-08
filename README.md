@@ -24,19 +24,86 @@ O projeto consiste em uma cópia da interface e funcionalidades do <a href="http
 </ul>
 
 <h2>🛠️ Instalação e Execução</h2>
+<ol>
+<li>Primeiro, é necessário o Node.js para a instalação dos pacotes usados no projeto. Você pode acessar o link para o download aqui (>=22): https://nodejs.org </li>
+<br>
+<li>Após a instalação do node, descarregue o repositório na sua máquina e acesse o diretório. A estrutura de pastas será essa:</li>
+<br>
+  
+```
+├── 📁 front-end
+├── 📁 back-end
+├── package.json
+├── README.md
+```
+<br>
+<li>Acesse o arquivo api.js no caminho:</li>
+<br>
 
-Primeiro, é necessário o Node.js para a instalação dos pacotes usados no projeto. Você pode acessar o link para o download aqui (>=22): https://nodejs.org
+```
+├── 📁 front-end
+│   └── 📁 api
+│       └── api.js
+├── 📁 back-end
+├── package.json
+├── README.md
+```
+<br>
+<li>Edite o valor da constante URL para o seguinte valor:</li>
+<br>
 
-Com o Node instalado, descarregue o repositório e rode o seguinte comando dentro do diretório com o front-end, back-end e package.json:
+~~~javascript
+const URL = "http://localhost:3000/api";
+~~~
+
+Este valor é o local do nosso servidor (servidor local, ouvindo na porta 3000).
+<br>
+<i>Opcional: caso você queira mudar a porta do servidor vá para:
+```
+├── 📁 front-end
+├── 📁 back-end
+│   └── 📁 api
+│       └── server.js
+├── package.json
+├── README.md
+```
+<br>
+
+E mude o valor de PORT:
+<br>
+
+~~~javascript
+const PORT = {porta de comunicação do seu servidor};
+~~~
+</i>
+
+<br>
+<li>Feita as configurações prévias (Node instalado, repositório baixado), rode o seguinte comando dentro do diretório <i>jornada-fullstack-spotify</i>:</li>
+<br>
+
 ~~~
 npm run build
 ~~~
 Este comando instalará todas as dependências e pacotes, tanto do backend quanto do frontend, e depois criará uma pasta dist, contendo o html estático.
+<br>
+<li>Inicie o servidor da API:</li>
+<br>
 
-Agora você poderá iniciar o servidor da API:
 ~~~
 npm run start
 ~~~
+<br>
+<li>Rode o front da página:</li>
+<br>
 
+~~~
+npm run dev
+~~~
+<i>Este comando fará com que a conexão entre front e back aconteça e fará com que o index.html seja rodado localmente</i>
+</ol>
+Pronto! Acesse sua página rodando localmente pelo link que aparecerá no seu terminal (ou digite 'o' para abrir a página no navegador automaticamente).
+
+<h2>🧑 Autor</h2>
+<li><a href="https://github.com/Quisini">Quisini</a></li>
 
 <h2>Acesso na web pelo link: https://jornada-fullstack-spotify-vqeu.onrender.com (Render) </h2>
