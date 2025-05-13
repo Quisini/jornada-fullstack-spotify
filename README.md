@@ -27,7 +27,14 @@ O projeto consiste em uma cópia da interface e funcionalidades do <a href="http
 <ol>
 <li>Primeiro, é necessário o Node.js para a instalação dos pacotes usados no projeto. Você pode acessar o link para o download aqui (>=22): https://nodejs.org </li>
 <br>
-<li>Após a instalação do node, descarregue o repositório na sua máquina e acesse o diretório. A estrutura de pastas será essa:</li>
+<li>Após a instalação do node, faça um clone do repositório na sua máquina </li>
+<br>
+  
+~~~
+git clone https://github.com/quisini/jornada-fullstack-spotify.git
+~~~
+
+<li>Acesse o diretório. A estrutura de pastas será essa:</li>
 <br>
   
 ```
@@ -78,28 +85,21 @@ const PORT = {porta de comunicação do seu servidor};
 </i>
 
 <br>
-<li>Feita as configurações prévias (Node instalado, repositório baixado), rode o seguinte comando dentro do diretório <i>jornada-fullstack-spotify</i>:</li>
+<li>Feita as configurações prévias (Node instalado, repositório baixado), rode os seguintes comandos dentro do diretório <i>jornada-fullstack-spotify</i>:</li>
 <br>
 
 ~~~
+# Este comando instalará todas as dependências e pacotes,
+# tanto do backend quanto do frontend, e depois criará uma pasta dist, contendo o html estático.
 npm run build
-~~~
-Este comando instalará todas as dependências e pacotes, tanto do backend quanto do frontend, e depois criará uma pasta dist, contendo o html estático.
-<br>
-<li>Inicie o servidor da API:</li>
-<br>
 
-~~~
+# Inicie o servidor da API
 npm run start
-~~~
-<br>
-<li>Rode o front da página:</li>
-<br>
 
-~~~
+# Rode o front da página
 npm run dev
 ~~~
-<i>Este comando fará com que a conexão entre front e back aconteça e fará com que o index.html seja rodado localmente</i>
+
 </ol>
 Pronto! Acesse sua página rodando localmente pelo link que aparecerá no seu terminal (ou digite 'o' para abrir a página no navegador automaticamente).
 
