@@ -83,7 +83,18 @@ E mude o valor de PORT:
 const PORT = {porta de comunicação do seu servidor};
 ~~~
 </i>
+<br>
 
+
+<li>Agora crie um arquivo dentro da pasta 'back-end' chamado '.env'. É neste arquivo onde você colocará a chave do seu cluster no Mongo. Dentro do arquivo escreva a seguinte instrução</li>
+<br>
+
+~~~javascript
+MONGO_KEY = "{Sua chave aqui}"
+~~~
+<br>
+Isso fará com que a variável do sistema dentro de 'connect.js' tenha o valor certo referenciado.
+<br>
 <br>
 <li>Feita as configurações prévias (Node instalado, repositório baixado), rode os seguintes comandos dentro do diretório <i>jornada-fullstack-spotify</i>:</li>
 <br>
