@@ -3,10 +3,10 @@
 
 // MongoClient faz a conexão com o MongoDB
 import { MongoClient } from "mongodb";
+import "dotenv/config";
 
 // Chave de acesso do meu cluster
-const URI =
-  "mongodb+srv://gustavoquisini:OMHTnAoBOUvF4P1n@clusterfree.52q45ph.mongodb.net/?retryWrites=true&w=majority&appName=ClusterFree";
+const URI = process.env.MONGO_KEY;
 
 // Definindo um novo objeto da classe MongoClient e passando a URI como parâmetro.
 const client = new MongoClient(URI);
